@@ -26,7 +26,7 @@ class CastleGate extends BaseEntity {
     if (this.open) {
       return 'The gate is opened. The <strong>guard</strong> could sober up anytime, though.';
     }
-    return 'Nobody can get in. I’m tête-à-tête with my destiny.';
+    return 'Nobody can get in. I’m so close, yet so far!';
   }
 }
 
