@@ -8,7 +8,7 @@ class Letter extends BaseEntity {
 
       No doubt you’ve heard of the princess that went missing not long ago. We’ve tracked her GPS-enabled crown to a vault in the castle south of here, but no sane person dares venture there.
 
-      In this kingdom, <a href="http://google.com/#q=http+methods" target="_blank">HTTP verbs</a> are used to interact with its inhabitants, locations and items.
+      In this kingdom, <a href="https://www.google.com/search?q=http+methods" target="_blank">HTTP verbs</a> are used to interact with its inhabitants, locations and items.
 
       To get started, try the following commands:
 
