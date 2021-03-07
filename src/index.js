@@ -1,5 +1,3 @@
-import { stripIndent } from './utils.js';
-
 import Game from './Game.js';
 
 // TODO: Saving & loading game state
@@ -17,18 +15,6 @@ const render = ({ text, kind = '' }) => {
 
   output.scrollTop = output.scrollHeight;
 };
-
-render({
-  text: stripIndent`
-    Welcome!
-
-    There’s a <strong>letter</strong> in your inventory.
-    Type <strong>TRACE&nbsp;letter</strong> to read it.
-
-    GLHF
-  `,
-  kind: 'info',
-});
 
 input.addEventListener('keyup', () => {
   input.value = input.value.replace(/^[\w]+/, (verb) => verb.toUpperCase());

@@ -10,7 +10,7 @@
 #output .response {
   line-height: 1.25em;
   font-size: 25px;
-  white-space: pre-wrap;
+  white-space: pre-line;
   padding: 40px 25px;
   border-bottom: 1px solid #DDDDDD;
 }
