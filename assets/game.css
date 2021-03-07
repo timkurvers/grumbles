@@ -93,6 +93,7 @@
   white-space: pre;
   font-size: 15px;
   line-height: 1em;
+  overflow: auto;
 }
 
 .map .current-location {
