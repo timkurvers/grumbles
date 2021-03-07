@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+  margin-left: 1.5em;
+}

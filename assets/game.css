@@ -1,0 +1,103 @@
+#output {
+  position: absolute;
+  top: 0px;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+
+#output .response {
+  line-height: 1.25em;
+  font-size: 25px;
+  white-space: pre-wrap;
+  padding: 40px 25px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+#output .response:last-child {
+  border-bottom-style: dashed;
+}
+
+#output .response.error {
+  color: red;
+}
+
+#output .response.info {
+  color: gray;
+}
+
+#output .command {
+  font-size: 15px;
+  padding: 20px;
+  color: gray;
+}
+
+#output .command:before {
+  content: '> ';
+}
+
+#input-form {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  border-top: 3px double #999999;
+  padding: 10px;
+}
+
+#input-form * {
+  font-size: 40px;
+}
+
+#prompt {
+  color: gray;
+  padding-right: 0;
+}
+
+#prompt, #input {
+  line-height: 55px;
+  padding: 10px;
+}
+
+#input {
+  flex: 1;
+  margin-left: 0;
+  border: none;
+}
+
+#input:focus {
+  outline: none;
+}
+
+.game-manual {
+  white-space: normal;
+}
+
+.game-manual dt, .game-manual dd, .game-manual em, .game-manual strong {
+  font-size: 20px;
+}
+
+.game-manual dt {
+  font-weight: bold;
+}
+
+.game-manual dd {
+  margin-left: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.map {
+  white-space: pre;
+  font-size: 15px;
+  line-height: 1em;
+}
+
+.map .current-location {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: green;
+}
