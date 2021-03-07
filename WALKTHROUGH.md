@@ -2,7 +2,7 @@
 
 - GET inn_key
 
-- GET lame_stick
+- GET stick
 
 - GET holey_shoes
 
@@ -40,7 +40,7 @@
 
 - GET wizardy_book
 
-- MERGE lame_stick crystal
+- MERGE stick crystal
 
 - MERGE crystal_stick wizardy_book
 
@@ -71,6 +71,8 @@
 - MOVE courtyard
 
 - MOVE road_to_castle
+
+- PUT holy_shoes
 
 - MOVE castle_entrance
 
