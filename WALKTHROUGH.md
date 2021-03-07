@@ -7,6 +7,8 @@ GET holey_shoes
 MERGE inn_key inn_door
 UNLOCK inn_door
 MOVE courtyard
+GET map
+TRACE map
 MOVE church
 PATCH holey_shoes
 MOVE church_library
