@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2014-2020 Peter Sergeev, Sindre Moen and Tim Kurvers
+Copyright (c) 2014-2021 Peter Sergeev, Sindre Moen and Tim Kurvers
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
