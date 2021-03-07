@@ -1,0 +1,24 @@
+{
+  "name": "@timkurvers/grumbles-the-wizard",
+  "author": "Tim Kurvers <tim@moonsphere.net>",
+  "repository": "github:timkurvers/grumbles-the-wizard",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --ext js",
+    "start": "serve -p ${PORT:=8000}"
+  },
+  "dependencies": {
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@timkurvers/eslint-config": "^2.1.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^4.3.0"
+  }
+}
