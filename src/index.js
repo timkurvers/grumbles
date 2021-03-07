@@ -30,6 +30,10 @@ render({
   kind: 'info',
 });
 
+input.addEventListener('keyup', () => {
+  input.value = input.value.replace(/^[\w]+/, (verb) => verb.toUpperCase());
+});
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
