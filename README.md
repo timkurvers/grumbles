@@ -5,8 +5,9 @@
 A web text-adventure game featuring Grumbles the Wizard and his quest to rescue
 a missing princess using HTTP verbs to interact with the game world.
 
-This is a JavaScript client-side port of the [Ruby original], a submission by
-@toothfairy, @sindrenm and @timkurvers for Rails Rumble 2014.
+This is a JavaScript client-side port of the [Ruby original], a submission created
+over the span of a weekend by [@toothfairy], [@sindrenm] and [@timkurvers] for
+Rails Rumble 2014.
 
 Play the game: https://timkurvers.github.io/grumbles
 
@@ -34,6 +35,9 @@ To specify a different port, use the `PORT` environment variable:
 PORT=3000 npm start
 ```
 
+[@sindrenm]: https://github.com/sindrenm
+[@timkurvers]: https://github.com/timkurvers
+[@toothfairy]: https://github.com/toothfairy
 [Node.js]: https://nodejs.org/en/
 [Ruby original]: https://github.com/hyperoslo/grumbles/
 [walkthrough]: WALKTHROUGH.md
