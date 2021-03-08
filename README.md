@@ -2,7 +2,7 @@
 
 [![MIT License](https://badgen.net/github/license/timkurvers/grumbles)](LICENSE.md)
 
-A web text-adventure game featuring Grumbles the Wizard and his quest to rescue
+A web text-adventure game featuring Grumbles the Wizard on a quest to rescue
 a missing princess using HTTP verbs to interact with the game world.
 
 This is a JavaScript client-side port of the [Ruby original], a submission created
