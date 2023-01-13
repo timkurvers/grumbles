@@ -10,7 +10,7 @@
     "start": "serve -p ${PORT:=8000}"
   },
   "dependencies": {
-    "serve": "^11.3.2"
+    "serve": "^14.1.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.0.0",
